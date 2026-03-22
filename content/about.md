@@ -6,7 +6,9 @@ summary: "About Davit Vardanyan"
 
 ## Hey there — I'm Davit 👋
 
-I'm a **Software QA Engineer** based in Armenia, focused on quality assurance, test automation, and building reliable systems.
+I'm a **Senior Software QA Engineer** based in Armenia, focused on quality assurance, test automation, and building reliable systems.
+
+Welcome. Writing about code, quality, testing, code and AI.
 
 ### What I work on
 

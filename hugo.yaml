@@ -50,7 +50,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi, I'm Davit 👋"
-    subtitle: "Software QA Engineer · QA / Automation · Building reliable systems"
+    subtitle: "Welcome to my personal blog. Here I'm writing about quality, testing, code and AI."
     imageUrl: ""
     imageWidth: 120
     imageHeight: 120
@@ -63,11 +63,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/yourusername"
+      url: "https://github.com/vardanyandavit"
     - name: linkedin
-      url: "https://linkedin.com/in/yourusername"
-    - name: email
-      url: "mailto:your@email.com"
+      url: "https://linkedin.com//in/davit03/"
+    # - name: email
+    #   url: "mailto:your@email.com"
 
   cover:
     hidden: false
