@@ -6,7 +6,7 @@ summary: "About Davit Vardanyan"
 
 ## Hey there — I'm Davit 👋
 
-I'm a Senior Software QA Engineer / Senior SDET focused on automation testing, specializing in Playwright architecture, clean code practices, and the engineering of AI agents, skills, and instructions.
+I'm a Senior Software QA Engineer / Senior SDET focused on automation testing, Playwright architecture, clean code practices, and the engineering of AI agents, skills, and instructions.
 
 
 ### What I work on
