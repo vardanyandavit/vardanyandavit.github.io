@@ -1,11 +1,13 @@
 baseURL: "/"
 title: "Davit Vardanyan"
-paginate: 10
 theme: PaperMod
 languageCode: en-us
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
+
+pagination:
+  pagerSize: 10
 
 minify:
   disableXML: true
