@@ -1,0 +1,93 @@
+baseURL: "/"
+title: "Davit Vardanyan"
+paginate: 10
+theme: PaperMod
+languageCode: en-us
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  disableCSS: true
+  disableJSON: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Davit Vardanyan"
+  description: "Software QA Engineer — Posts, projects, and thoughts."
+  author: Davit Vardanyan
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+
+  label:
+    text: "Davit Vardanyan"
+    icon: ""
+    iconHeight: 35
+
+  # Profile mode — shown on homepage
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Davit 👋"
+    subtitle: "Software QA Engineer · QA / Automation · Building reliable systems"
+    imageUrl: ""
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Davit Vardanyan"
+    buttons:
+      - name: Posts
+        url: /posts/
+      - name: About
+        url: /about/
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/yourusername"
+    - name: linkedin
+      url: "https://linkedin.com/in/yourusername"
+    - name: email
+      url: "mailto:your@email.com"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 10
+    - name: Tags
+      url: /tags/
+      weight: 30
+    - name: About
+      url: /about/
+      weight: 40
+
+taxonomies:
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
