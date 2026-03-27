@@ -1,0 +1,21 @@
+{{- $github := .Get "github" -}}
+{{- $linkedin := .Get "linkedin" -}}
+{{- if or $github $linkedin -}}
+<div class="about-contact">
+  <p class="about-contact__label">Find Me Online</p>
+  <div class="social-icons about-contact__links">
+    {{- with $github }}
+    <a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer me" aria-label="GitHub">
+      {{- partial "svg.html" (dict "name" "github") -}}
+      <span>GitHub</span>
+    </a>
+    {{- end }}
+    {{- with $linkedin }}
+    <a href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer me" aria-label="LinkedIn">
+      {{- partial "svg.html" (dict "name" "linkedin") -}}
+      <span>LinkedIn</span>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end -}}

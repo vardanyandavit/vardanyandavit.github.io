@@ -31,3 +31,9 @@ Expect simple notes about:
 - building reliable automation instead of flaky systems
 - using AI in a way that is practical, grounded, and repeatable
 - keeping engineering work simple, understandable, and useful
+
+### Connect
+
+You can also find me here:
+
+{{< about-contact-links github="https://github.com/" linkedin="https://linkedin.com/in/" >}}
