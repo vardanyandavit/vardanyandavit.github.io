@@ -42,3 +42,18 @@
 #menu li a:hover {
     color: var(--accent);
 }
+
+/* Post Titles Styling - Premium Aesthetic 
+   Following "Dominant colors with sharp accents" and "Create atmosphere and depth" */
+.entry-header h2 {
+    color: #ffffff; /* Stark, bright pure white against the dark navy background */
+    text-shadow: 0 0 12px rgba(255, 143, 143, 0.15); /* Subtle atmospheric glow using the accent color */
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* On hover: surprise the user with a sharp color change, stronger glow, and a positional shift */
+.post-entry:hover .entry-header h2 {
+    color: var(--accent);
+    text-shadow: 0 0 20px rgba(255, 143, 143, 0.5); /* Deep atmospheric glow */
+    transform: translateX(6px); /* Dynamic spatial movement */
+}
