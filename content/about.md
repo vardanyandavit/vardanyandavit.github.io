@@ -4,19 +4,30 @@ url: "/about/"
 summary: "About Davit Vardanyan"
 ---
 
-## Hey there — I'm Davit 👋
+## Hey, I'm Davit
 
-I'm a Senior Software QA Engineer / Senior SDET with over 7 years in software quality engineering. I focus on automation testing, Playwright architecture, clean code practices, and the engineering of AI agents, skills, and instructions.
+I'm a Senior QA Engineer / Senior SDET.
 
-Over the years I've collected approaches and practices that actually work — and a lot of people ask me: *"How do I start with automation testing?" "How do I write stable tests?" "How do I create good skills for AI models?"* This blog is where I answer those questions and share what I've learned.
+This site is my personal blog and engineering notebook. I use it to write down ideas, lessons, experiments, and patterns that I want to keep, revisit, and share.
 
-It's also my public notebook. Technology moves fast, and writing things down keeps them sharp — and shareable.
+Most of what I write comes from real work: things I built, things I learned, things I changed my mind about, or things I do not want to forget.
 
 ### What I write about
 
-- **Test automation** — Playwright, TypeScript, patterns and anti-patterns
-- **AI & tooling** — Using AI to improve engineering workflows
+- **Agentic engineering** — agents, skills, prompts, and practical AI workflows
+- **AI automation** — using AI to support real engineering work, not just demos
+- **Playwright and software quality** — automation architecture, stable tests, and maintainable systems
 
-### Get in touch
+### Why I write
 
-Feel free to reach out via [GitHub](https://github.com/) or [LinkedIn](https://linkedin.com/). I'm always happy to connect with fellow engineers.
+Writing helps me think more clearly. A lot of the notes here start from one useful idea, one repeated mistake, or one pattern worth keeping.
+
+This blog helps me make my experience reusable instead of leaving it inside one project or one conversation.
+
+### What you'll find here
+
+Expect simple notes about:
+
+- building reliable automation instead of flaky systems
+- using AI in a way that is practical, grounded, and repeatable
+- keeping engineering work simple, understandable, and useful
