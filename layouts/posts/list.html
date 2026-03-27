@@ -5,7 +5,7 @@
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}
-<header class="page-header">
+<header class="page-header posts-page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>
     {{ .Title }}
@@ -27,13 +27,16 @@
     {{ .Description | markdownify }}
   </div>
   {{- end }}
-  <ul class="terms-tags filter-categories" style="margin-top: 20px;">
+  <ul class="terms-tags filter-categories">
     <li>
-      <a href="#" class="category-filter-btn active" data-category="all" style="cursor: pointer; background: var(--primary); color: var(--theme);">All</a>
+      <a href="#" class="category-filter-btn is-active" data-category="all">All</a>
     </li>
     {{- range $key, $value := .Site.Taxonomies.categories }}
     <li>
-      <a href="#" class="category-filter-btn" data-category="{{ $key }}" style="cursor: pointer;">{{ $key | humanize }} <sup><strong><sup>{{ len $value }}</sup></strong></sup> </a>
+      <a href="#" class="category-filter-btn" data-category="{{ $key }}">
+        <span>{{ $key | humanize }}</span>
+        <small class="category-filter-count">{{ len $value }}</small>
+      </a>
     </li>
     {{- end }}
   </ul>
@@ -144,11 +147,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Update active styling
             filterButtons.forEach(b => {
-                b.style.background = 'var(--theme)';
-                b.style.color = 'var(--primary)';
+                b.classList.remove('is-active');
             });
-            btn.style.background = 'var(--primary)';
-            btn.style.color = 'var(--theme)';
+            btn.classList.add('is-active');
 
             // Filter posts
             posts.forEach(post => {
